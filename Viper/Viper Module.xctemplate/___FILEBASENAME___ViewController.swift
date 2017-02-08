@@ -12,7 +12,6 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     
     var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInputProtocol?
 
-    // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
