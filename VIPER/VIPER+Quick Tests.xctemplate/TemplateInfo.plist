@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>VIPER+Quck Test</string>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This generates a new module using Viper architecture.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scpec to create</string>
+			<key>Identifier</key>
+			<string>specName</string>
+			<key>Name</key>
+			<string>New Spec Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_specName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_specName:identifier___PresenterSpec</string>
+			<key>Description</key>
+			<string>The spec name</string>
+			<key>Identifier</key>
+			<string>specNameIdentifier</string>
+			<key>Name</key>
+			<string>Spec Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.applicationBase</string>
+		<string>com.apple.dt.unit.osxBase</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>___VARIABLE_specName:identifier___PresenterSpec.swift</key>
+		<dict/>
+	</dict>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>9</string>
+	<key>Summary</key>
+	<string>Generates a new spec for Viper Module architecture.</string>
+	<key>CFBundleIdentifier</key>
+	<string>___VARIABLE_specName:identifier___</string>
+</dict>
+</plist>
