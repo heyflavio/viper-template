@@ -6,6 +6,7 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 //  Expected outcomes info: https://github.com/Quick/Nimble
+//  Quick use info: https://github.com/Quick/Quick/blob/master/Documentation/en-us/QuickExamplesAndGroups.md
 //
 
 import Foundation
