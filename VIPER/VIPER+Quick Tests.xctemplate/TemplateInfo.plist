@@ -18,7 +18,7 @@
 			<key>Identifier</key>
 			<string>specName</string>
 			<key>Name</key>
-			<string>New Spec Name:</string>
+			<string>New spec name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -38,11 +38,25 @@
 			<key>Default</key>
 			<string>___VARIABLE_specName:identifier___PresenterSpec</string>
 			<key>Description</key>
-			<string>The spec name</string>
+			<string>The presenter spec name</string>
 			<key>Identifier</key>
-			<string>specNameIdentifier</string>
+			<string>specPresenterNameIdentifier</string>
 			<key>Name</key>
-			<string>Spec Name:</string>
+			<string>Presenter spec name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_specName:identifier___InteractorSpec</string>
+			<key>Description</key>
+			<string>The interactor spec name</string>
+			<key>Identifier</key>
+			<string>specInteractorNameIdentifier</string>
+			<key>Name</key>
+			<string>Interactor spec name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -57,6 +71,8 @@
 	<key>Definitions</key>
 	<dict>
 		<key>___VARIABLE_specName:identifier___PresenterSpec.swift</key>
+		<dict/>
+		<key>___VARIABLE_specName:identifier___InteractorSpec.swift</key>
 		<dict/>
 	</dict>
 	<key>Platforms</key>

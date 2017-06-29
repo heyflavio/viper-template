@@ -46,34 +46,30 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterSpec: QuickSpec {
     
     override func spec() {
         
-        describe("___FILEBASENAMEASIDENTIFIER___Presenter") {
-            
-            var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter!
-            var interactor: MockInteractor!
-            var router: MockRouter!
-            var view: MockView!
-            
-            beforeSuite {
-                presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
-                interactor = MockInteractor()
-                router = MockRouter()
-                view = MockView()
+        var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter!
+        var interactor: MockInteractor!
+        var router: MockRouter!
+        var view: MockView!
+        
+        beforeSuite {
+            presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
+            interactor = MockInteractor()
+            router = MockRouter()
+            view = MockView()
                 
-                presenter.interactor = interactor
-                presenter.presenterOutput = view
-                presenter.router = router
-            }
-            
-            beforeEach {
-            }
-            
-            context("view did load") {
-                it(<#"should do something"#>) {
-                    presenter.viewDidLoad()
-                    //expect(<##>).to(<##>)
-                }
-            }
-            
+            presenter.interactor = interactor
+            presenter.presenterOutput = view
+            presenter.router = router
         }
+        
+        describe("the view being loaded") {
+            beforeEach {
+                presenter.viewDidLoad()
+            }
+            it(<#"should do something"#>) {
+                //expect(<##>).to(<##>)
+            }
+        }
+            
     }
 }
