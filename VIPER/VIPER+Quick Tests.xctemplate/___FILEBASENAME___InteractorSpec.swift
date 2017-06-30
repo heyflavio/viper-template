@@ -12,13 +12,13 @@
 import Foundation
 import Quick
 import Nimble
+import OHHTTPStubs
 
 @testable import ___PROJECTNAME___
 class ___FILEBASENAMEASIDENTIFIER___InteractorSpec: QuickSpec {
     
     private class MockPresenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol {
         
-        //setup Asserts
         
         fileprivate var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol?
         
@@ -42,8 +42,7 @@ class ___FILEBASENAMEASIDENTIFIER___InteractorSpec: QuickSpec {
 
             }
             it(<#"should do something"#>) {
-                
-                //expect(<##>).to(<##>)
+
             }
         }
     }

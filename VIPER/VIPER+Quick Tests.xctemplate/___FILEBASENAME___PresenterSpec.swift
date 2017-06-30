@@ -18,7 +18,6 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterSpec: QuickSpec {
     
     private class MockInteractor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol {
         
-        //setup Asserts
         
         fileprivate var interactorOutput: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol?
         
@@ -26,7 +25,6 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterSpec: QuickSpec {
     
     private class MockView: ___FILEBASENAMEASIDENTIFIER___PresenterOutputProtocol {
         
-        //setup Asserts
         
         var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInputProtocol?
         
@@ -34,7 +32,6 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterSpec: QuickSpec {
     
     private class MockRouter: ___FILEBASENAMEASIDENTIFIER___RouterProtocol {
         
-        //setup Asserts
         
         weak var view: UIViewController?
         
@@ -62,12 +59,12 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterSpec: QuickSpec {
             presenter.router = router
         }
         
-        describe("the view being loaded") {
+        describe(<#"something is happening"#>) {
             beforeEach {
-                presenter.viewDidLoad()
+                
             }
             it(<#"should do something"#>) {
-                //expect(<##>).to(<##>)
+                
             }
         }
             
