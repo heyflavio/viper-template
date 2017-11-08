@@ -13,6 +13,8 @@
 	<key>Options</key>
 	<array>
 		<dict>
+			<key>Default</key>
+			<string></string>
 			<key>Description</key>
 			<string>The name of the scpec to create</string>
 			<key>Identifier</key>

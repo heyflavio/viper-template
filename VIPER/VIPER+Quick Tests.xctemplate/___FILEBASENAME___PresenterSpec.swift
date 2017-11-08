@@ -14,23 +14,23 @@ import Quick
 import Nimble
 
 @testable import ___PROJECTNAME___
-class ___VARIABLE_moduleName:identifier___PresenterSpec: QuickSpec {
+class ___VARIABLE_specName:identifier___PresenterSpec: QuickSpec {
     
-    private class MockInteractor: ___VARIABLE_moduleName:identifier___InteractorInputProtocol {
+    private class MockInteractor: ___VARIABLE_specName:identifier___InteractorInputProtocol {
         
         
-        fileprivate var interactorOutput: ___VARIABLE_moduleName:identifier___InteractorOutputProtocol?
+        fileprivate var interactorOutput: ___VARIABLE_specName:identifier___InteractorOutputProtocol?
         
     }
     
-    private class MockView: ___VARIABLE_moduleName:identifier___PresenterOutputProtocol {
+    private class MockView: ___VARIABLE_specName:identifier___PresenterOutputProtocol {
         
         
-        var presenter: ___VARIABLE_moduleName:identifier___PresenterInputProtocol?
+        var presenter: ___VARIABLE_specName:identifier___PresenterInputProtocol?
         
     }
     
-    private class MockRouter: ___VARIABLE_moduleName:identifier____RouterProtocol {
+    private class MockRouter: ___VARIABLE_specName:identifier___RouterProtocol {
         
         
         weak var view: UIViewController?
@@ -43,13 +43,13 @@ class ___VARIABLE_moduleName:identifier___PresenterSpec: QuickSpec {
     
     override func spec() {
         
-        var presenter: ___VARIABLE_moduleName:identifier___Presenter!
+        var presenter: ___VARIABLE_specName:identifier___Presenter!
         var interactor: MockInteractor!
         var router: MockRouter!
         var view: MockView!
         
         beforeSuite {
-            presenter = ___VARIABLE_moduleName:identifier___Presenter()
+            presenter = ___VARIABLE_specName:identifier___Presenter()
             interactor = MockInteractor()
             router = MockRouter()
             view = MockView()
