@@ -15,23 +15,23 @@ import Nimble
 import OHHTTPStubs
 
 @testable import ___PROJECTNAME___
-class ___FILEBASENAMEASIDENTIFIER___InteractorSpec: QuickSpec {
+class ___VARIABLE_moduleName:identifier___InteractorSpec: QuickSpec {
     
-    private class MockPresenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol {
+    private class MockPresenter: ___VARIABLE_moduleName:identifier___InteractorOutputProtocol {
         
         
-        fileprivate var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol?
+        fileprivate var interactor: ___VARIABLE_moduleName:identifier___InteractorInputProtocol?
         
     }
     
     override func spec() {
         
         var presenter: MockPresenter!
-        var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor!
+        var interactor: ___VARIABLE_moduleName:identifier___Interactor!
 
         beforeSuite {
             presenter = MockPresenter()
-            interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
+            interactor = ___VARIABLE_moduleName:identifier___Interactor()
             
             presenter.interactor = interactor
             interactor.interactorOutput = presenter

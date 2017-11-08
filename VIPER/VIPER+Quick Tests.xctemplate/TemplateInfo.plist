@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>VIPER+Quck Test</string>
+	<string>VIPER+Quick Test</string>
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
@@ -25,14 +25,6 @@
 			<true/>
 			<key>Type</key>
 			<string>text</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_specName:identifier___</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Type</key>
-			<string>static</string>
 		</dict>
 		<dict>
 			<key>Default</key>
