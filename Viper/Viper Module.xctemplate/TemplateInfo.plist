@@ -2,37 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Template Author</key>
+	<string>Flávio Bittencourt. @flaviobittenca</string>
 	<key>DefaultCompletionName</key>
 	<string>VIPERModule</string>
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
-	<string>This generates a new module using Viper architecture.</string>
+	<string>This template generates a new module using Viper architecture.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
 	<array>
 		<dict>
+			<key>Default</key>
+			<string></string>
 			<key>Description</key>
 			<string>The name of the module to create</string>
 			<key>Identifier</key>
 			<string>moduleName</string>
 			<key>Name</key>
-			<string>New Scene Name:</string>
+			<string>Module Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
 			<string>text</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_moduleName:identifier___</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Type</key>
-			<string>static</string>
 		</dict>
 		<dict>
 			<key>Default</key>

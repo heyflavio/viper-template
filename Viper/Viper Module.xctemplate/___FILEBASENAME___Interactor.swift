@@ -6,8 +6,8 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol {
+class ___VARIABLE_moduleName:identifier___Interactor: ___VARIABLE_moduleName:identifier___InteractorInputProtocol {
 
-    weak var interactorOutput: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol?
+    weak var interactorOutput: ___VARIABLE_moduleName:identifier___InteractorOutputProtocol?
 
 }

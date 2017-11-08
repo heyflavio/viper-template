@@ -5,8 +5,9 @@
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
+import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol {
+class ___VARIABLE_moduleName:identifier___Router: ___VARIABLE_moduleName:identifier___RouterProtocol {
     weak var view: UIViewController?
     
     static func assembleModule() -> UIViewController {
@@ -14,9 +15,9 @@ class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___Router
             fatalError()
         }
         
-        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
-        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
-        let router = ___FILEBASENAMEASIDENTIFIER___Router()
+        let presenter = ___VARIABLE_moduleName:identifier___Presenter()
+        let interactor = ___VARIABLE_moduleName:identifier___Interactor()
+        let router = ___VARIABLE_moduleName:identifier___Router()
         
         router.view = viewController
         
