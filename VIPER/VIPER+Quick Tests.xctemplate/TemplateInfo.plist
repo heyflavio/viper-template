@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___</string>
 	<key>DefaultCompletionName</key>
-	<string>VIPER+Quick Test</string>
+	<string>___VARIABLE_specName:identifier___</string>
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
@@ -62,13 +64,6 @@
 		<string>com.apple.dt.unit.applicationBase</string>
 		<string>com.apple.dt.unit.osxBase</string>
 	</array>
-	<key>Definitions</key>
-	<dict>
-		<key>___VARIABLE_specName:identifier___PresenterSpec.swift</key>
-		<dict/>
-		<key>___VARIABLE_specName:identifier___InteractorSpec.swift</key>
-		<dict/>
-	</dict>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
@@ -77,7 +72,5 @@
 	<string>9</string>
 	<key>Summary</key>
 	<string>Generates a new spec for Viper Module architecture.</string>
-	<key>CFBundleIdentifier</key>
-	<string>___VARIABLE_specName:identifier___</string>
 </dict>
 </plist>

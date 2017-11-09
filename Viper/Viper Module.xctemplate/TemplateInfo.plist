@@ -2,10 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Template Author</key>
-	<string>Flávio Bittencourt. @flaviobittenca</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___</string>
 	<key>DefaultCompletionName</key>
-	<string>VIPERModule</string>
+	<string>___VARIABLE_moduleName:identifier___</string>
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
@@ -106,22 +106,13 @@
 		<string>com.apple.dt.unit.applicationBase</string>
 		<string>com.apple.dt.unit.osxBase</string>
 	</array>
-	<key>Definitions</key>
-	<dict>
-		<key>___VARIABLE_moduleName:identifier___Contract.swift</key>
-		<dict/>
-		<key>___VARIABLE_moduleName:identifier___ViewController.swift</key>
-		<dict/>
-		<key>___VARIABLE_moduleName:identifier___Presenter.swift</key>
-		<dict/>
-		<key>___VARIABLE_moduleName:identifier___Interactor.swift</key>
-		<dict/>
-		<key>___VARIABLE_moduleName:identifier___Router.swift</key>
-		<dict/>
-	</dict>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
 	</array>
 	<key>SortOrder</key>
 	<string>9</string>
