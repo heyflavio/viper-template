@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 protocol ___VARIABLE_moduleName:identifier___PresenterInputProtocol: class {
-    weak var presenterOutput: ___VARIABLE_moduleName:identifier___PresenterOutputProtocol? { get set }
+    var presenterOutput: ___VARIABLE_moduleName:identifier___PresenterOutputProtocol? { get set }
     var interactor: ___VARIABLE_moduleName:identifier___InteractorInputProtocol? { get set }
     var router: ___VARIABLE_moduleName:identifier___RouterProtocol? { get set }
     
@@ -23,7 +23,7 @@ protocol ___VARIABLE_moduleName:identifier___PresenterOutputProtocol: class {
 }
 
 protocol ___VARIABLE_moduleName:identifier___InteractorInputProtocol: class {
-    weak var interactorOutput: ___VARIABLE_moduleName:identifier___InteractorOutputProtocol? { get set }
+    var interactorOutput: ___VARIABLE_moduleName:identifier___InteractorOutputProtocol? { get set }
 }
 
 protocol ___VARIABLE_moduleName:identifier___InteractorOutputProtocol: class {
@@ -31,6 +31,6 @@ protocol ___VARIABLE_moduleName:identifier___InteractorOutputProtocol: class {
 }
 
 protocol ___VARIABLE_moduleName:identifier___RouterProtocol: class {
-    weak var view: UIViewController? { get set }
+    var view: UIViewController? { get set }
     static func assembleModule() -> UIViewController
 }
